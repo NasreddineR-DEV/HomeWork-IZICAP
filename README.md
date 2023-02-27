@@ -1,6 +1,6 @@
 # HomeWork_IZICAP
 
-HomeWork_IZICAP is a microservice project built using Springboot3 and Java 17. The purpose of this project is to communicate with ChatGPT AI via a call to an endpoint that we will expose. For the purpose of this test, we need to build a microservice which updates a “database” in our system with questions we send to ChatGPT and answers that the API gives us.
+HomeWork_IZICAP is a microservice project built using Springboot3 and Java 17. The purpose of this project is to communicate with ChatGPT AI via a call to an endpoint that we will expose. For the purpose of this test, we need to build a microservice which updates a csv file with questions we send to ChatGPT and answers that the API gives us.
 
 # Technologies and Programming Languages Used
 
