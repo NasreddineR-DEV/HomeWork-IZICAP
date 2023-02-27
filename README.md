@@ -70,7 +70,7 @@ As the API key for OpenAI's GPT is sensitive information, it is not recommended 
 
 To add your API key to the ChatgptserviceApplication, follow these steps:
 
-    Open the ChatgptserviceApplication.java file located in the com.izicap.chatgptservice package.
+    Open the ChatgptRestController.java file located in the com.izicap.chatgptservice.web package.
 
     Look for the line that says <!--PUT YOUR API KEY HERE--> and replace it with your actual API key.
 
