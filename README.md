@@ -57,8 +57,8 @@ Method 2: Using Your IDE
 
 To install and use the HomeWork_IZICAP project using your IDE, follow these steps:
 
-    * Clone the project repository to your local machine.
-    * Open the project in your IDE.
+* Clone the project repository to your local machine.
+* Open the project in your IDE.
     
 <pre>
 Run DiscoveryservicesApplication.java in com.izicap.discoveryservices.discoveryservices package.
