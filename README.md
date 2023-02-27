@@ -11,7 +11,7 @@ HomeWork_IZICAP is a microservice project built using Springboot3 and Java 17. T
     Swagger/OpenAPI
     Maven
     Actuator
-    Unit/Integration tests
+    Unit tests
 
 # Project Architecture
 
