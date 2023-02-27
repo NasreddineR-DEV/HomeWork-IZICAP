@@ -16,7 +16,7 @@ import java.nio.file.StandardOpenOption;
 
 @FeignClient(name="chat-client", url="https://api.openai.com/v1/completions")
 interface ChatGptClient {
-    @PostMapping(consumes = "application/json",headers="Authorization=Bearer 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")
+    @PostMapping(consumes = "application/json",headers="Authorization=Bearer <!--PUT YOU API KEY->")
     ChatGptApiResponse getResponse(@RequestBody ChatGptQuestion chatGptQuestion);
 }
 
