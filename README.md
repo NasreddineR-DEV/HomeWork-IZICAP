@@ -66,6 +66,16 @@ Run ChatgptserviceApplication.java in com.izicap.chatgptservice package.
 Run ApiGatewayApplication.java in com.izicap.gateway.apigateway package.
 </pre>
 
+As the API key for OpenAI's GPT is sensitive information, it is not recommended to store it publicly on GitHub. OpenAI frequently updates their API keys, and if the key is publicly accessible on GitHub, it can be detected by OpenAI and used by unauthorized parties. Therefore, it's important to manually add the API key to your project rather than including it in your code or storing it on GitHub.
+
+To add your API key to the ChatgptserviceApplication, follow these steps:
+
+    Open the ChatgptserviceApplication.java file located in the com.izicap.chatgptservice package.
+
+    Look for the line that says <!--PUT YOUR API KEY HERE--> and replace it with your actual API key.
+
+    Save the changes to the file.
+    
 # API Documentation
 
 The API documentation for the HomeWork_IZICAP project can be found using Swagger/OpenAPI. Once the project is up and running, you can access the Swagger UI by going to http://localhost:8080/swagger-ui/index.html / http://localhost:8090/swagger-ui/index.htmlin your web browser.
